@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+.link{
+    text-decoration: none;
+    font-weight: 15px;
+}
+.link:hover{
+    background-color: white;
+    padding: 2px;
+}
+.nav{
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    float: right;
+}
+li{
+    display: inline;
+    margin-left: 25px;
+    padding: 2px;
+    margin-right: 10px;
+    font-family: 'Patua One', cursive;
+    color: #321d43;
+}
+ul{
+    margin-top: 0;
+}
+.judul{
+    float: left;
+    width: 640px;
+    font-family: 'Permanent Marker', cursive;
+}
+.judul .link{
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 60px;
+    line-height: 65px;
+}
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+}
+
+/* Title */
+#content{
+    text-align: center;
+}
+.container{
+    margin-bottom: 50px;
+    padding: 150px;
+    background-color: #9f95a8;
+}
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    color: #45263a;
+}
+p{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Fitur */
+h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    color: #45263a;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+h3{
+    text-align: center;
+    padding: 25px;
+    font-family: 'Acme', sans-serif;
+    color: #45263a;
+    font-size: 25px;
+}
+.lingkaran{
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    padding: 25px;
+    margin-right: 30px;
+}
+.fitur{
+    margin: 25px;
+    padding: 25px;
+}
+img{
+    margin-left: 35px;
+}
+
+/* Tujuan */
+
+
+.tujuan{
+    background-color: #e2ccdd;
+    width: 100%;
+    height: 300px;
+}
+.ket{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+/* CARD */
+.card{
+    border: 1px solid white;
+    width: 250px;
+    height: 350px;
+    margin-left: 100px;
+    padding: 30px;
+    margin-top: 50px;
+    display: inline-block;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+.card:hover{
+    background: white;
+    padding: 10px;
+}
+.caption {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0;
+}
+.button{
+    margin: 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    border: 1px solid #ccd0e2;
+    background-color: #ccd0e2;
+    color: black;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    padding: 25px;
+    text-align: center;
+    margin-left: 60px;
+    font-family: 'Acme', sans-serif;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.50);
+}
+.keterangan{
+    font-size: 20px;
+    color: #45263a;
+}
+.button:hover{
+    background-color: #ccd0e2;
+    padding: 20px;
+}
+
+/* Beasiswa */
+.card-bea{
+    border: 1px solid white;
+    width: 900px;
+    height: 250px;
+    margin-left: 200px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+.beasiswa{
+    margin-top: 70px;
+}
+.tulisan{
+    padding: 5px;
+}
+
+
+/* Lapak Kerja */
+.lapak{
+    background-color: #002641;
+    width: 100%;
+    height: 300px;
+    padding: 25px;
+    margin-top: 60px;
+}
+.kerja{
+    padding: 20px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #005c7a;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* Mobile version */
+@media screen and (max-width:600px){
+    
+    /* Fitur */
+
+    .lingkaran{
+        margin-top: 50px;
+        margin-left: 80px;
+        padding: 30px;
+        margin-right: 30px;
+        display: inline;
+        margin-bottom: 15px;
+    }
+    h3{
+        float: right;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .belajar{
+        margin-left: 30px;
+    }
+    .card-bea{
+        margin-left: 35px;
+        width: 80%;
+        height: 60%;
+    }
+    .img{
+        height: auto;
+        background-size: cover;
+    }
+    .tulisan-h3{
+        margin: 10px;
+        font-size: 18px;
+        margin-top: 0;
+        text-align: left;
+    }
+    .tulisan-p{
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer{
+        text-align: left;
+        float: left;
+    }
+    
+}
