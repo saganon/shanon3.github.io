@@ -1,5 +1,3 @@
-# shanon3.github.io
-
 # Sumber icon dan gambar
 1. Icon dari Payungkead
 2. https://www.pexels.com/search/website%20background/
